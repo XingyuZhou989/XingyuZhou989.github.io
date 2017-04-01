@@ -53,14 +53,15 @@ body {
   background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-  color: #6d6d6d;
+/*  color: #6d6d6d; */
+  color: #303030; 
 }
 
 a {
-  color: #d5000d;
+  color: #293D5E;
 }
 a:hover {
-  color: #c5000c;
+  color: #3F818D;
 }
 
 header {
@@ -69,7 +70,7 @@ header {
 }
 
 header h1 {
-  font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif; font-weight: 900;
+  font-family: 'Syncopate', 'Helvetica Neue', Helvetica, Arial, serif; font-weight: 900;
   letter-spacing: -1px;
   font-size: 48px;
   color: #303030;
@@ -85,7 +86,7 @@ header h2 {
 }
 
 #container {
-  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
+  /*background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;*/
   min-height: 595px;
 }
 
@@ -252,7 +253,8 @@ h2 {
 } 
 
 h3 {
-  color: #d5000d;
+  /*color: #d5000d;*/
+  color: #293D5E;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 8px;
@@ -295,14 +297,12 @@ blockquote {
 }
 
 ul li {
-  list-style-position: inside;
-  list-style: disc;
+  list-style: disc inside;
   padding-left: 20px;
 }
 
 ol li {
-  list-style-position: inside;
-  list-style: decimal;
+  list-style: decimal inside;
   padding-left: 3px;
 }
 
